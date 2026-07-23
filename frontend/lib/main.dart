@@ -61,9 +61,12 @@ void main() {
   };
 
   final dio = Dio(BaseOptions(
-    baseUrl: 'http://localhost:3000', // Connects directly to backend API Server
-    connectTimeout: const Duration(seconds: 10),
-    receiveTimeout: const Duration(seconds: 10),
+    baseUrl: const String.fromEnvironment(
+      'API_BASE_URL',
+      defaultValue: 'https://vocabflow-backend-vd4v.onrender.com',
+    ),
+    connectTimeout: const Duration(seconds: 15),
+    receiveTimeout: const Duration(seconds: 15),
   ));
 
   const storage = FlutterSecureStorage();
