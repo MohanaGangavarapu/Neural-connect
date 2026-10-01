@@ -1,4 +1,4 @@
-# VocabFlow 🚀
+# VocabFlow 
 
 VocabFlow is a cutting-edge, cross-platform mobile application built with Flutter that transforms traditional vocabulary learning. Instead of treating words as isolated units for rote memorization, VocabFlow utilizes a hybrid document-graph database architecture (Express.js, MongoDB, and Neo4j Aura) to construct a dynamic, personalized **Knowledge Graph** of your language journey. 
 
@@ -6,7 +6,7 @@ Every time you enter a word, VocabFlow leverages a sophisticated NLP and semanti
 
 ---
 
-## 🛠️ Tech Stack & Infrastructure
+##  Tech Stack & Infrastructure
 
 - **Frontend:** Flutter (Cross-platform iOS/Android) using a feature-first layered architecture.
 - **Backend:** Node.js + Express.js (Controller-Service-Repository pattern).
@@ -16,7 +16,7 @@ Every time you enter a word, VocabFlow leverages a sophisticated NLP and semanti
 
 ---
 
-## 🧠 Automated Word Ingestion Pipeline
+##  Automated Word Ingestion Pipeline
 
 When a word is submitted, the backend triggers an advanced atomic pipeline:
 1. **Preprocessing:** Inputs are trimmed, sanitized, and normalized to lowercase.
